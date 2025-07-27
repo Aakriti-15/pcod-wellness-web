@@ -1,0 +1,77 @@
+/* src/app/dashboard/dashboard.module.css */
+.container {
+  min-height: 100vh;
+  background-color: #ffe4ec;
+  padding: 3rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.greeting {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #d63384;
+  text-align: center;
+}
+
+.cardContainer {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  text-align: center;
+  max-width: 260px;
+  flex: 1;
+}
+
+.card h2 {
+  color: #d63384;
+  margin-bottom: 0.5rem;
+  
+}
+
+.card button {
+  background-color: #ff7eb9;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.card button:hover {
+  background-color: #ff4f9e;
+}
+.subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+.separator {
+  width: 120px;
+  height: 4px;
+  background-color: pink;
+  margin: 0 auto 2rem auto;
+  border-radius: 2px;
+}
+.iconBox {
+  background-color: #ffc0cb; /* light pink */
+   border-radius: 12px;
+   
+ /* use 50% for circular */
+  }
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+}

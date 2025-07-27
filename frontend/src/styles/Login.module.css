@@ -1,0 +1,64 @@
+/* src/styles/Login.module.css */
+
+.container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 40px;
+  background-color: #fef9fb;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(255, 192, 203, 0.3);
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  color: #cc3366;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.form button {
+  background-color: #ff66a3;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #ff3385;
+}
+
+.bottomText {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.link {
+  color: #cc3366;
+  font-weight: bold;
+  cursor: pointer;
+}
+.error {
+  color: red;
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
